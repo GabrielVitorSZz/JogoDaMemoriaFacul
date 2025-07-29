@@ -1,7 +1,7 @@
 # 🧠 Jogo da Memória em JavaFX
 
 Bem-vindo ao projeto Jogo da Memória, uma aplicação desktop clássica desenvolvida com Java e JavaFX. O jogo proporciona uma experiência divertida com uma interface gráfica limpa e recursos modernos, como salvamento automático e histórico de pontuações.
-
+GitHub dos desenvolvedores: GabrielVitorSZz e yDaviDEAD1
 ### 🎮 Visão Geral
 
 Este projeto foi criado como uma prática de aplicação dos conceitos de JavaFX, explorando arquitetura MVC, manipulação de arquivos JSON, troca de cenas com FXML, entre outros tópicos.
