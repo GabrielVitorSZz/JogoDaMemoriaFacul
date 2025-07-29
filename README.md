@@ -92,11 +92,11 @@ git clone [https://github.com/GabrielVitorSZz/JogoDaMemoria.git](https://github.
 │   ├── diagrama.png
 │   ├── menu.png
 │   └── tabuleiro.jpg
+└── pom.xml (Se estiver usando Maven)
+#    - Adicione o caminho do SDK JavaFX na configuração do projeto.
 
 📄 Licença
 Este projeto é de uso educacional e livre para modificações. Fique à vontade para usar e aprimorar!
-└── pom.xml (Se estiver usando Maven)
-#    - Adicione o caminho do SDK JavaFX na configuração do projeto.
 #    - Defina os módulos necessários: --add-modules javafx.controls,javafx.fxml
 
 # 4. Execute a classe principal:
