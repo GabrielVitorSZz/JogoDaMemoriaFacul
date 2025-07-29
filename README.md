@@ -19,21 +19,20 @@ O jogo oferece:
 
 Permite selecionar o modo de jogo e inserir os nomes dos jogadores.
 
-![Tela do Menu Principal](resources/assets/jogo_da_memoria.assets/menu.png)
+![Tela do Menu Principal](images/menu.png)
 
 #### Tela de Jogo
 
 Apresenta um tabuleiro 4x4 de cartas viradas. Os jogadores clicam para revelar pares e acumulam pontos.
 
-![Tela do Jogo em Andamento](resources/assets/jogo_da_memoria.assets/tabuleiro.jpg)
+![Tela do Jogo em Andamento](images/tabuleiro.jpg)
 
-#### Diagrama UML
+#### Diagrama de Classe
 
 Exibe a arquitetura MVC do projeto, separando controladores, modelo e persistência.
 
-![Diagrama UML do Projeto](resources/assets/jogo_da_memoria.assets/diagrama.png)
+![Diagrama UML do Projeto](images/diagrama.png)
 
-> 💡 **Para exibir essas imagens no GitHub, certifique-se de que os nomes dos arquivos na pasta `/resources/assets/jogo_da_memoria.assets/` do seu repositório correspondem exatamente aos links acima.**
 
 ### ✨ Funcionalidades
 
@@ -69,6 +68,32 @@ git clone [https://github.com/GabrielVitorSZz/JogoDaMemoria.git](https://github.
 # 2. Importe o projeto em sua IDE (Eclipse, IntelliJ, VS Code)
 
 # 3. Configure o JavaFX:
+ Estrutura do Projeto (Simplificada)
+├── application/
+│   ├── Main.java
+│   ├── controller/
+│   │   ├── MenuController.java
+│   │   └── MemoryGameController.java
+│   ├── model/
+│   │   ├── CartaModel.java
+│   │   ├── CartaMemoriaModel.java
+│   │   ├── DeckCartasModel.java
+│   │   ├── EstadoDoJogo.java
+│   │   └── ResultadoPartida.java
+│   ├── persistencia/
+│   │   ├── GerenciadorDeEstado.java
+│   │   └── GerenciadorDePontuacoes.java
+│   ├── view/
+│   │   ├── tela_menu.fxml
+│   │   └── tela_jogo.fxml
+├── images/
+│   ├── diagrama.png
+│   ├── menu.png
+│   └── tabuleiro.jpg
+
+📄 Licença
+Este projeto é de uso educacional e livre para modificações. Fique à vontade para usar e aprimorar!
+└── pom.xml (Se estiver usando Maven)
 #    - Adicione o caminho do SDK JavaFX na configuração do projeto.
 #    - Defina os módulos necessários: --add-modules javafx.controls,javafx.fxml
 
